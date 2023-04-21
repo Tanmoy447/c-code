@@ -1,7 +1,7 @@
 //Alphabet Triangle
 #include<stdio.h>
 int main ()
-{
+{4
 	int rows;
     printf("Enter the values of rows : ");
     scanf("%d",&rows);
