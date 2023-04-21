@@ -8,7 +8,7 @@ int main()
     int nsp=1;
     for(int i=1;i<=2*rows+1;i++)
     {
-        printf("%d", i);
+        printf("%d",i);
     }
     printf("\n");
     for(int i=1;i<=rows;i++)
@@ -22,18 +22,16 @@ int main()
         for(int k=1;k<=nsp;k++)
         {
             printf(" ");
-            a++;
+           // a--;
         }
-        for(int j=1;j<=ndt;j++)
+        for(int l=3;l>=1;l--)
         {
-            printf("%d",a);
-            a++;
-
+            printf("%d",l);
+           // a--;
         }
         ndt--;
         nsp+=2;
         printf("\n");
-
     }
     return 0;
 }
